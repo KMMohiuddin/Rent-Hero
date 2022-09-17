@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+  }.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding:40px o;
+    background-color:
+  }
+  .logo{
+    margin-left:170px;
+  
+  }
+  .Menu ul{
+    display:flex;
+  }
+  .Menu ul li{
+    list-style:none;
+    margin-right:70px;
+  }
+  .ReservationBtn{
+    background:orangered;
+  }
