@@ -6,24 +6,84 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 40px o;
-    background-color:RED;
+    /*background-color: #FFF5E4;*/
+    background-color: #ffffff;
+    font-size: medium;
+    font-weight: 500;
 }
 
 .logo {
-    margin-left: 170px;
+    display: flex;
+    margin-left: 120px;
+    padding: 20px 0;
+    font-family: 'Poppins', sans-serif;
+    
+    
 
+}
+.logo img {
+    width: 25px;
+    height: 25px;
 }
 
 .Menu ul {
     display: flex;
+    padding: 20px 0;
 }
 
 .Menu ul li {
     list-style: none;
-    margin-right: 70px;
+    margin-right: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #16213E;
+
+}
+
+.Menu ul li:last-child {
+    margin-right: 0px;
+}
+
+.Menu ul li a {
+    color: #16213E;
+    text-decoration: none;
 }
 
 .ReservationBtn {
-    background: orangered;
+    display: flex;
+    background: #ff4500;
+    padding: 15px 60px;
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+}
+.heroSection{
+    display: flex;
+    background:  #16213E;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+}
+.heroSectionLeft{
+    background: white;
+    height: 100%;
+    width: 50%;
+}
+.heroSectionRight img{
+    background-image: url(../images/round-shape.png);
+    height: 100%;
+    width: 100%;
+}
+.heroSectionRightText{
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-weight: 900;
+    font-size: 50px;    
+    color: #16213E;
+
+}
+.heroSectionLeftSentence{
+    margin-top: 120px;
+    margin-left: 120px;
 }
