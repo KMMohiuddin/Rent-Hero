@@ -76,14 +76,22 @@
     height: 100%;
     width: 100%;
 }
-.heroSectionRightText{
-    font-family: 'Reem Kufi Fun', sans-serif;
-    font-weight: 900;
-    font-size: 50px;    
-    color: #16213E;
-
-}
 .heroSectionLeftSentence{
     margin-top: 120px;
     margin-left: 120px;
 }
+.heroSectionLeftText1{
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-weight: 900;
+    font-size: 50px;    
+    color: #16213E;
+    line-height: 98%;
+    width: 10px;
+
+}
+.heroSectionLeftText2{
+    font-family: 'Reem Kufi Fun', sans-serif;   
+    color: #16213E;
+
+}
+
