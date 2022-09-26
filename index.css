@@ -63,13 +63,14 @@
     background:  #16213E;
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 90vh;
     width: 100%;
 }
 .heroSectionLeft{
     background: white;
     height: 100%;
     width: 50%;
+    position: relative;
 }
 .heroSectionRight img{
     background-image: url(../images/round-shape.png);
@@ -81,17 +82,37 @@
     margin-left: 120px;
 }
 .heroSectionLeftText1{
-    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 60px;    
     color: #16213E;
     line-height: 98%;
-    width: 10px;
-
+    width: 5px;
 }
 .heroSectionLeftText2{
     font-family: 'Reem Kufi Fun', sans-serif;   
     color: #16213E;
 
 }
+.hero-roundShape{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+}
+.hero-roundShape img{
+    width: 80%;
+}
+.hero-facilities{
+    margin-top: 70px;
+    display:flex;
+}
+.car{
+    margin-right: 12px;
+    border-radius: 12px;
+}
+.bus{
+    margin-right: 12px;
+    border-radius: 12px;
+}
+
 
