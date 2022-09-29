@@ -114,5 +114,16 @@
     margin-right: 12px;
     border-radius: 12px;
 }
+.Hero-resevation-form{
+    display: flex;
+    height: 500px;
+    width: 1000px;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
 
+
+}
+.hero-reservation-btn{
+    border: none;
+}
 
